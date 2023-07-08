@@ -1,0 +1,89 @@
+body {
+    background: linear-gradient(to left, rgb(252, 213, 220), rgb(30, 135, 210), rgb(210, 252, 220));
+    color: #0a0408;
+}
+
+#appTitle {
+    text-align: center;
+    margin: 50px auto;
+    display: block;
+    font-family: 'Staatliches', sans-serif;
+    font-size: 80px;
+}
+
+#genreForm, #playBtn {
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+    font-family: 'Staatliches', sans-serif;
+}
+
+#movieInfo {
+    width:  65%;
+    margin:  32px auto;
+    border: 1px solid rgb(86, 86, 86, 0.5);
+    border-radius: 20px;
+}
+
+#movieInfo:after {
+    content:  "";
+    display:  table;
+    clear:  both;
+}
+
+#moviePoster, #movieText {
+    width:  50%;
+    float:  left;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+img#moviePoster {
+    width:  100%;
+    height:  auto;
+    display:  block;
+    margin:  auto;
+}
+
+#movieText {
+    font-family: 'Tahoma';
+    color: #3c3c3c;
+    line-height: 1.25;
+}
+
+#movieTitle, #movieOverview {
+    padding:  32px;
+}
+
+#playBtn {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: #ffbc37ee;
+    color: #404040;
+    cursor:  pointer;
+    border: 1px solid black;
+}
+
+#playBtn:hover {
+    background-color: inherit;
+    color: white;
+    border: 1px solid white;
+}
+
+label {
+    display: block;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+    font-family: 'Staatliches', Tahoma;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+}
