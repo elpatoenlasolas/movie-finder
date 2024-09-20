@@ -13,18 +13,29 @@
   </head>
   <body>
     <div class="container">
+
     <header>
       <h1 id="appTitle">Random Movie Finder</h1>
     </header>
+
     <form id="genreForm">
       <label>Choose a genre:</label>
       <select name="genres" id="genres">
       </select>
     </form>
+
     <button id="playBtn">Find me a movie!</button>
+
     <div id="movieInfo">
+
       <div id="moviePoster"></div>
       <div id="movieText"></div>
+      
+      <div id="likeOrDislikeBtns">
+        <button id="likeBtn" class="utfBTN">&#128077</button>
+        <button id="dislikeBtn" class="utfBTN">&#128078</button>
+      </div>
+
     </div>
   </div>
   </body>

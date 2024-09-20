@@ -19,7 +19,8 @@ const getSelectedGenre = () => {
 // Displays the like and dislike buttons on the page
 const showBtns = () => {
     const btnDiv = document.getElementById('likeOrDislikeBtns');
-    btnDiv.removeAttribute('hidden');
+    btnDiv.style.visibility = 'visible';
+    btnDiv.style.display = 'flex';
 };
 
 // Clear the current movie from the screen

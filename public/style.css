@@ -1,18 +1,15 @@
 body {
-    background: linear-gradient(120deg, rgb(184, 74, 74), rgb(255, 207, 207));
+    background: linear-gradient(120deg, rgb(74, 162, 184), rgb(207, 255, 233));
     color: #0a0408;
 }
 
 .container {
     display: flex;
-    min-width: 1200px;
-    max-width: 100%;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 1300px;
 }
 
 #appTitle {
@@ -108,4 +105,24 @@ select {
     font-size: 15px;
     text-align: center;
     border-radius: 5px;
+}
+
+#likeOrDislikeBtns {
+    visibility: hidden;
+    display: none;
+    padding: 50px;
+    justify-content: center;
+}
+
+.utfBTN {
+    font-size: 1em;
+    background-color: rgba(98, 43, 109, 0.884);
+    padding: 10px;
+    margin: 4px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.utfBTN:hover {
+    cursor: pointer;
 }
