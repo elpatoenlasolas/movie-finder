@@ -1,128 +1,125 @@
 body {
-    background: linear-gradient(120deg, rgb(74, 162, 184), rgb(207, 255, 233));
-    color: #0a0408;
+  background-color: #b2deea;
+  color: #0a0408;
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 #appTitle {
-    color: rgb(36, 30, 30);
-    text-align: center;
-    margin: 50px auto;
-    display: block;
-    font-family: 'Staatliches', sans-serif;
-    font-size: 120px;
-    letter-spacing: .12em;
-    text-shadow: 1px 1px 8px rgb(255, 226, 226);
+  color: #01566b;
+  text-align: center;
+  margin: 50px auto;
+  display: block;
+  font-family: "Inter", sans-serif;
+  font-size: 5em;
+  letter-spacing: 0.02em;
 }
 
-#genreForm, #playBtn {
-    color: rgb(36, 30, 30);
-    text-align: center;
-    margin: 0px auto;
-    display: block;
-    font-family: 'Staatliches', sans-serif;
-}
-
-#genreForm label {
-    letter-spacing: .12em;
+#genreForm,
+#playBtn {
+  color: #01566b;
+  text-align: center;
+  display: block;
+  font-family: "Inter", sans-serif;
+  margin: 0 auto;
 }
 
 #movieInfo {
-    width:  65%;
-    margin:  50px auto;
-    border: 1px solid rgb(86, 86, 86, 0.5);
-    border-radius: 20px;
-    box-shadow: 2px 2px 10px rgb(86, 86, 86, 0.5);
-    background-color: rgb(238, 238, 238);
+  width: 65%;
+  margin: 50px auto;
+  border: 1px solid rgb(86, 86, 86, 0.5);
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px rgb(86, 86, 86, 0.5);
+  background-color: rgb(238, 238, 238);
 }
 
 #movieInfo:after {
-    content:  "";
-    display:  table;
-    clear:  both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
-#moviePoster, #movieText {
-    width:  50%;
-    float:  left;
-    border-bottom-left-radius: 20px;
-    border-top-left-radius: 20px;
+#moviePoster,
+#movieText {
+  width: 50%;
+  float: left;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
 }
 
 img#moviePoster {
-    width:  100%;
-    height:  auto;
-    display:  block;
-    margin:  auto;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
 }
 
 #movieText {
-    font-family: 'Tahoma';
-    color: #3c3c3c;
-    line-height: 1.25;
+  font-family: "Tahoma";
+  color: #3c3c3c;
+  line-height: 1.25;
 }
 
-#movieTitle, #movieOverview {
-    padding:  32px;
+#movieTitle,
+#movieOverview {
+  padding: 32px;
 }
 
 #playBtn {
-    margin-top: 20px;
-    font-size: 25px;
-    padding: 20px 20px;
-    border-radius: 10px;
-    border-style: none;
-    background-color: #ffbc37ee;
-    color: #404040;
-    cursor:  pointer;
-    border: 1px solid black;
+  margin-top: 20px;
+  font-size: 25px;
+  padding: 20px 20px;
+  border-radius: 10px;
+  background-color: #ffbc37ee;
+  color: #404040;
+  cursor: pointer;
+  border: 1px solid black;
+  transition: .2s linear;
 }
 
 #playBtn:hover {
-    background-color: inherit;
-    color: white;
-    border: 1px solid white;
+  background-color: #c8c7c789;
+  color: #3c3c3c;
+  border: 1px solid #3c3c3c;
+  box-shadow: 0px 0px 15px #6e6e6e48;
 }
 
 label {
-    display: block;
-    font-size: 35px;
-    margin-bottom: 15px;
+  display: block;
+  font-size: 35px;
+  margin-bottom: 15px;
 }
 
 select {
-    width: 200px;
-    height: 40px;
-    font-family: 'Staatliches', Tahoma;
-    font-size: 15px;
-    text-align: center;
-    border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  font-family: "Staatliches", Tahoma;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 5px;
 }
 
 #likeOrDislikeBtns {
-    visibility: hidden;
-    display: none;
-    padding: 50px;
-    justify-content: center;
+  visibility: hidden;
+  display: none;
+  padding: 50px;
+  justify-content: center;
 }
 
 .utfBTN {
-    font-size: 1em;
-    background-color: rgba(98, 43, 109, 0.884);
-    padding: 10px;
-    margin: 4px;
-    border: 0px;
-    border-radius: 5px;
+  font-size: 1em;
+  background-color: rgba(98, 43, 109, 0.884);
+  padding: 10px;
+  margin: 4px;
+  border: 0px;
+  border-radius: 5px;
 }
 
 .utfBTN:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
