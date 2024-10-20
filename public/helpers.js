@@ -23,6 +23,11 @@ const showBtns = () => {
     btnDiv.style.display = 'flex';
 };
 
+const showMovie = () => {
+    const movieInfo = document.getElementById("movieInfo");
+    movieInfo.style.display = 'block';
+}
+
 // Clear the current movie from the screen
 const clearCurrentMovie = () => {
     const moviePosterDiv = document.getElementById('moviePoster');
@@ -95,7 +100,8 @@ const displayMovie = (movieInfo) => {
     moviePosterDiv.appendChild(moviePoster);
     movieTextDiv.appendChild(titleHeader);
     movieTextDiv.appendChild(overviewText);
-  
+    
+    showMovie();
     showBtns();
     likeBtn.onclick = likeMovie;
     dislikeBtn.onclick = dislikeMovie;
